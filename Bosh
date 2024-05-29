@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David the Great</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #264653;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #2a9d8f;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #264653;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>David the Great</h1>
+    <p>Hi, I'm David and I'm a student pilot and the greatest person you’ll meet.</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#blog">Blog</a>
+    <a href="#projects">Projects</a>
+    <a href="#media">Pictures & Videos</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm David, a passionate student pilot with a love for aviation. My journey in the skies has been thrilling and I aspire to become one of the best pilots out there. Stay tuned as I share my experiences and adventures!</p>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Coming soon! I will be sharing my thoughts, stories, and updates about my journey as a student pilot. Stay tuned!</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Here are some of my latest projects:</p>
+    <ul>
+        <li>Flight Simulator Training</li>
+        <li>Aviation Safety Research</li>
+        <li>Community Outreach Programs</li>
+    </ul>
+</section>
+
+<section id="media">
+    <h2>Pictures & Videos</h2>
+    <p>Coming soon! I'll be uploading pictures and videos from my flying adventures. Stay tuned!</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 David the Great. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
